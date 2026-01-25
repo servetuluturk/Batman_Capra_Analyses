@@ -1,8 +1,6 @@
 install.packages(c("terra", "sf"))
 library(terra)
 library(sf)
-setwd("C:/KDE_Analiz")
-list.files()
 batman_boundary <- rast("Batman.tif")
 corine          <- rast("Batman_corine.tif")
 water           <- rast("water.tif")
