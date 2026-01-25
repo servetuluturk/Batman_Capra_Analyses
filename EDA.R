@@ -1,3 +1,7 @@
+# Euclidean Distance Estimation (EDA) Analysis
+# Study area: Batman Province, Türkiye
+# Author: Servet Ulutürk
+
 library(terra)
 
 kde         <- rast("std_kde.tif")
