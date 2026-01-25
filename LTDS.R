@@ -1,3 +1,7 @@
+# Line Transect Distance Sampling (LTDS) Analysis
+# Study area: Batman Province, Türkiye
+# Author: Servet Ulutürk
+
 library(Distance)
 obs <- read.csv"../data/sample.csv"
 sample <- read.csv"../data/obs.csv"
