@@ -1,3 +1,7 @@
+# Kernel Density Estimation (KDE) Analysis
+# Study area: Batman Province, Türkiye
+# Author: Servet Ulutürk
+
 install.packages(c("terra", "sf"))
 library(terra)
 library(sf)
