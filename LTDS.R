@@ -1,7 +1,7 @@
 library(Distance)
-obs <- read.csv("C:/Users/aleyn/OneDrive/Belgeler/Capra_R/Data/csv/obs.csv")
-sample <- read.csv("C:/Users/aleyn/OneDrive/Belgeler/Capra_R/Data/csv/sample.csv")
-region <- read.csv("C:/Users/aleyn/OneDrive/Belgeler/Capra_R/Data/csv/region.csv")
+obs <- read.csv"../data/sample.csv"
+sample <- read.csv"../data/obs.csv"
+region <- read.csv"../data/region.csv"
 conversion <- convert_units("meter", "kilometer", "square kilometer")
 combined_data <- merge(obs, sample, by = "Sample.Label")
 combined_data <- merge(combined_data, region, by = "Region.Label")
