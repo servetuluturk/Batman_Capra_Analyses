@@ -1,11 +1,4 @@
-# Habitat Suitability Modeling for Capra aegagrus
-# Study Area: Batman Province, T??rkiye
-# Method: KDE-based weighted habitat suitability analysis
-# Software: R (terra package)
-############################################################
-
 library(terra)
-setwd("C:/KDE_Analiz")
 
 kde         <- rast("std_kde.tif")
 dist_water  <- rast("dist_water.tif")
